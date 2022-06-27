@@ -6,7 +6,9 @@
   "main": "src/index.js",
   "dependencies": {
     "@babel/runtime": "7.17.9",
+    "bootstrap": "5.1.3",
     "react": "18.1.0",
+    "react-bootstrap": "2.4.0",
     "react-dom": "18.1.0",
     "react-scripts": "5.0.1",
     "svelte-jsoneditor": "0.3.60"

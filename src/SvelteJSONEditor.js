@@ -2,7 +2,7 @@ import { JSONEditor } from "svelte-jsoneditor/dist/jsoneditor.js";
 import { useEffect, useRef } from "react";
 import "./SvelteJSONEditor.css";
 
-export default function SvelteJSONEditor(props) {
+export function SvelteJSONEditor(props) {
   const refContainer = useRef(null);
   const refEditor = useRef(null);
 
